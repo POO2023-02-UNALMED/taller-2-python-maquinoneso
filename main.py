@@ -20,13 +20,13 @@ class Auto:
         value=self.registro
         for i in self.asientos:
             if i != None and i.registro != self.registro or i!=None and i.registro != self.motor.registro:
-                print('Las piezas no son originales')
+                print("Las piezas no son originales")
                 value=i.registro
                 break
             else:
                 None
         if self.registro == value and value == self.motor.registro:
-            print('Auto original')
+            print("Auto original")
             
 class Asiento:
     def __init__(self,color,precio,registro):
@@ -50,3 +50,5 @@ class Motor:
     def asignarTipo(self, toTipe):
         if toTipe == 'gasolina' or toTipe == 'electrico':
             self.tipo = toTipe
+
+      
