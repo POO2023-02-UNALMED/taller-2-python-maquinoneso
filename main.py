@@ -50,5 +50,3 @@ class Motor:
     def asignarTipo(self, toTipe):
         if toTipe == 'gasolina' or toTipe == 'electrico':
             self.tipo = toTipe
-
-      
