@@ -1,17 +1,17 @@
 from main import Asiento, Motor, Auto
 
-def testMetodoCambiarColor():
-    a1 = Asiento("blanco", 5000, 435)
-    a2 = Asiento("blanco", 5000, 435)
-    
-    a1.cambiarColor("naranja")
-    a2.cambiarColor("verde")
-    
-    ok = False
-    
-    if(a1.color == "blanco" and a2.color == "verde"):
-        ok = True
-    assert(ok)
+
+a1 = Asiento("blanco", 5000, 435)
+a2 = Asiento("blanco", 5000, 435)
+
+a1.cambiarColor("naranja")
+a2.cambiarColor("verde")
+
+ok = False
+
+if(a1.color == "blanco" and a2.color == "verde"):
+    ok = True
+assert(ok)
     
 	
 def testMetodoCambiarRegistro():
