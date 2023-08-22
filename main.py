@@ -36,10 +36,8 @@ class Asiento:
     
     def cambiarColor(self, color):
         if color == 'rojo' or color == 'verde' or color == 'amarillo' or color == 'negro' or color == 'blanco':
-            self.color = color
-        else:
-            None
-            
+            self.color = color       
+
 class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCilindros = numeroCilindros
