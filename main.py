@@ -14,7 +14,7 @@ class Auto:
         for i in asientos:
             if i != None:
                 cantidadAsientos+=1
-        print(cantidadAsientos)
+        return cantidadAsientos
     
     def verificarIntegridad(self):
         value=self.registro
