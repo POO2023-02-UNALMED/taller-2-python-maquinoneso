@@ -39,7 +39,7 @@ class Asiento:
             self.color = color
         else:
             None
-
+            
 class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCilindros = numeroCilindros
